@@ -1,0 +1,15 @@
+﻿ .FondoAplicacion
+    {
+        /*background-color: Gray;
+        filter: alpha(opacity=70);
+        opacity: 0.7;*/
+	background-color:#071019;      /* Le damos la el color de la opacidad. */
+    opacity:0.65;               /* Este valor mostrará la intensidad de la opacidad. */
+    position:absolute;          /* La posición tendrá que ser absoluta. */
+    z-index:9001;               /* Esta propidad es para añadir la capa superpuesta al nivel 9001. */
+    top:0;                      /* Para que posicione la capa al punto '0' del top de la página. */
+    left:0;                     /* Para que posicione la capa al punto '0' a la izquieda de la página. */
+    width:100%;                 /* El valor por defecto que tendrá que expandirse. */
+    height:100%;                /* El valor por defecto que tendrá que expandirse. */
+    border-radius: 20px;   
+    }

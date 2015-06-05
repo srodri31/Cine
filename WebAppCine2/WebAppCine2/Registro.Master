@@ -1,0 +1,64 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Registro.master.cs" Inherits="WebAppCine2.Registro1" %>
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <link href="StyleRegistro.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            color: #FFFFFF;
+            text-align: left;
+        }
+        .auto-style13 {
+            height: 17px;
+        }
+        .auto-style17 {
+            height: 20px;
+            text-align: left;
+        }
+        .auto-style19 {
+            height: 4px;
+        }
+        .auto-style20 {
+            height: 27px;
+        }
+        .auto-style21 {
+            height: 17px;
+            text-align: left;
+        }
+        .auto-style22 {
+            height: 14px;
+        }
+        .auto-style23 {
+            height: 16px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="contenedor">
+        <asp:ToolkitScriptManager ID="ToolkitScriptManager1" runat="server">
+        </asp:ToolkitScriptManager>
+
+      <div id ="cabecera"></div>
+            <div id ="izquierda"></div>
+        
+            <div id="form" style="position:center; top: -289px; left: -5px;">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            
+                    </asp:ContentPlaceHolder>
+                </div>
+            
+        
+      <div id ="pie"></div>  
+    </div>
+    </form>
+</body>
+</html>

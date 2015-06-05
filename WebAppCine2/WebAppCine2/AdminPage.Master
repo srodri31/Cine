@@ -1,0 +1,59 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="AdminPage.Master.cs" Inherits="WebAppCine2.Sigi" %>
+
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>Página sin título</title>
+    <link href="PagesStyle.css" rel="stylesheet" type="text/css" />
+    <script src="jQuery/menu.js" type="text/javascript"></script>
+    <script src="jQuery/jquery.js" type="text/javascript"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        #cerrar
+        {
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    
+    <div id="contenedor">
+        <asp:ToolkitScriptManager ID="ToolkitScriptManager1" runat="server">
+        </asp:ToolkitScriptManager>
+      <div id ="cabecera"></div>
+      
+      <div id="cerrar">
+          <asp:HyperLink runat="server" ID="hpkUsuario" 
+              style="color: #000000"></asp:HyperLink>
+
+            <asp:Button ID="btnCerrarS" runat="server" Text="Cerrar Sesión"  
+                position="relative" style="text-align: left" OnClick="btnCerrarS_Click" 
+                CausesValidation="False"/>
+        </div>
+      
+      <div id="Session"></div>
+
+      <div id ="derecha">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder> </div>
+        <div id="menu">
+    <ul class="menu">
+        <li><a href="/FrontEnd/GestionAdministrador.aspx"><span>Gestionar Administrador</span></a></li>
+
+        <li><a href="/FrontEnd/GestionCliente.aspx"><span>Gestionar Cliente</span></a></li>
+
+        <li class="last"><a href="/FrontEnd/GestionEmpleado.aspx"><span>Gestionar Empleados</span></a></li>
+    </ul>
+</div>
+        
+      <div id ="pie"></div>  
+    </div>
+    
+    </form>
+</body>
+</html>

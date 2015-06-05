@@ -1,0 +1,32 @@
+﻿#contenedor{
+        border:1px solid  #CCC;
+        width:100%;
+        font-family:Verdana, Geneva, sans-serif;
+        font-size:13px;
+        padding:1px;
+        text-align:center;
+        color:#999999;
+        background-color:#BDBDBD;
+}
+#cabecera{
+        background-image: url('../Imagenes/cabe.png');
+        height:170px;
+}
+#Botones
+{
+	width:330px;
+    height:70px;
+	float:right;
+    border-radius:20px;
+}
+
+#izquierda{
+        height:350px;
+        float:left;
+        width:85%;
+}
+#pie{
+        height:55px;
+        background-image:url('../Imagenes/city_footer.png');
+        clear:both;
+}

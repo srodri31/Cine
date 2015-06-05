@@ -1,0 +1,8 @@
+C:\Users\JuanDiego\Documents\Visual Studio 2013\Projects\WebAppCine2\WebAppCine2\bin\WebAppCine2.dll.config
+C:\Users\JuanDiego\Documents\Visual Studio 2013\Projects\WebAppCine2\WebAppCine2\bin\WebAppCine2.dll
+C:\Users\JuanDiego\Documents\Visual Studio 2013\Projects\WebAppCine2\WebAppCine2\bin\WebAppCine2.pdb
+C:\Users\JuanDiego\Documents\Visual Studio 2013\Projects\WebAppCine2\WebAppCine2\bin\MySql.Data.dll
+C:\Users\JuanDiego\Documents\Visual Studio 2013\Projects\WebAppCine2\WebAppCine2\obj\Debug\WebAppCine2.csprojResolveAssemblyReference.cache
+C:\Users\JuanDiego\Documents\Visual Studio 2013\Projects\WebAppCine2\WebAppCine2\obj\Debug\WebAppCine2.dll
+C:\Users\JuanDiego\Documents\Visual Studio 2013\Projects\WebAppCine2\WebAppCine2\obj\Debug\WebAppCine2.pdb
+C:\Users\JuanDiego\Documents\Visual Studio 2013\Projects\WebAppCine2\WebAppCine2\bin\AjaxControlToolkit.dll
